@@ -1,0 +1,63 @@
+.rym {
+    text-shadow: 9px 5px black;
+    animation-name: moveyears;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    bottom: 200px;
+}
+
+.para {
+  animation: none;
+}
+
+.rym h2 {
+    font-size: 70px
+}
+
+.rym h3 {
+    font-size: 70px
+}
+
+@keyframes moveyears {
+    from {
+      color: white;
+      text-shadow: -1px -1px 1px #aaa,
+      0px 4px 1px rgba(0,0,0,0.5),
+      4px 4px 5px rgba(0,0,0,0.7),
+      0px 0px 7px rgba(0,0,0,0.4);
+  
+    }
+    to {
+      color: #ada2e6;
+      text-shadow: 0 1px #808d93,
+                           -1px 0 #cdd2d5,
+                           -1px 2px #808d93,
+                           -2px 1px #cdd2d5,
+                           -2px 3px #808d93,
+                           -3px 2px #cdd2d5,
+                           -3px 4px #808d93,
+                           -4px 3px #cdd2d5,
+                           -4px 5px #808d93,
+                           -5px 4px #cdd2d5,
+                           -5px 6px #808d93,
+                           -6px 5px #cdd2d5,
+                           -6px 7px #808d93,
+                           -7px 6px #cdd2d5,
+                           -7px 8px #808d93,
+                           -8px 7px #cdd2d5;
+  transform: translate(1px, 1%);
+    }
+  }
+
+nav ul li {
+ display: flex;
+ margin-right: 30px;
+}
+
+nav ul li a:hover {
+  color: #ada2e6;
+  text-shadow: 4px 4px 4px #ada2e6;
+}
